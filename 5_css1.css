@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0 10px 20px 10px;
-  background: #b9dce8;   /* light blue background like example */
+  background: #b9dce8;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,7 +11,7 @@ body {
 /* Main page title */
 h1 {
   text-align: center;
-  font-size: 64px;
+  font-size: 58px;     /* slightly smaller to match example */
   font-weight: bold;
   margin: 18px 0 12px 0;
   letter-spacing: 1px;
@@ -19,20 +19,20 @@ h1 {
 
 /* Section headings */
 h2 {
-  font-size: 34px;
+  font-size: 30px;     /* reduced a bit */
   font-weight: bold;
   margin: 18px 0 10px 0;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 20px;     /* reduced slightly */
   font-weight: bold;
   margin: 18px 0 10px 0;
 }
 
 /* Regular paragraph styling */
 p {
-  font-size: 13px;
+  font-size: 14px;     /* slightly bigger for readability like example */
   line-height: 1.35;
   margin-bottom: 14px;
 }
@@ -52,7 +52,7 @@ article {
   margin: 12px 0 16px 12px;
   line-height: 1.8;
   font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
+  font-size: 14px;   /* same as regular text now */
 }
 
 /* Dark blue highlighted paragraphs */
@@ -63,6 +63,7 @@ article {
   margin: 12px 0;
   border: 2px solid #1a1a6e;
   line-height: 1.5;
+  font-size: 14px;
 }
 
 /* Ordered list with two-digit numbers */
@@ -102,7 +103,7 @@ th,
 td {
   border: 1px solid #333;
   padding: 6px 8px;
-  font-size: 12px;
+  font-size: 13px;   /* slightly larger like example */
   vertical-align: top;
 }
 
