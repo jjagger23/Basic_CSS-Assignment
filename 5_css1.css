@@ -94,7 +94,7 @@ a[href*="w3schools"]:visited {
 /* Table formatting */
 table {
   border-collapse: collapse;
-  width: 650px;               /* wider so the text fits like the example */
+  width: 650px;
   max-width: 100%;
   margin-top: 8px;
   background: white;
@@ -106,30 +106,31 @@ th,
 td {
   border: 1px solid #333;
   padding: 6px 8px;
-  font-size: 12px;            /* slightly smaller so descriptions fit */
-  vertical-align: top;
+  font-size: 12px;
+  vertical-align: middle;
 }
 
-/* Header row background */
+/* Header row background and centering */
 th {
   background: #cfcfcf;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table cell background */
 td {
   background: white;
+  text-align: left;
 }
 
-/* Column sizing + prevent wrapping */
+/* Column sizing and no wrapping like example */
 th:first-child,
 td:first-child {
-  width: 70px;                /* Tag column */
+  width: 70px;
   white-space: nowrap;
 }
 
 th:last-child,
 td:last-child {
-  width: auto;                /* Description column */
-  white-space: nowrap;        /* keeps each description on one line */
+  width: auto;
+  white-space: nowrap;
 }
