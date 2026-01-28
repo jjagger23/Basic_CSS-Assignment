@@ -5,7 +5,7 @@ body {
   padding: 0 10px 20px 10px;
   background: #b9dce8;
   color: #000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;  /* default body text */
 }
 
 /* Main page title */
@@ -15,6 +15,7 @@ h1 {
   font-weight: bold;
   margin: 18px 0 12px 0;
   letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;   /* title is sans-serif */
 }
 
 /* Section headings */
@@ -22,15 +23,17 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   margin: 18px 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 18px 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Regular paragraph styling */
+/* Paragraphs */
 p {
   font-size: 14px;
   line-height: 1.35;
@@ -51,7 +54,6 @@ article {
   max-width: calc(100% - 30px);
   margin: 12px 0 16px 12px;
   line-height: 1.8;
-  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 
@@ -73,7 +75,7 @@ ol {
   padding: 0;
 }
 
-/* Default link color */
+/* List item links */
 a {
   color: #2a51d3;
 }
@@ -106,23 +108,23 @@ th,
 td {
   border: 1px solid #333;
   padding: 6px 8px;
-  font-size: 12px;
+  font-size: 14px;   /* table text same as paragraphs */
   vertical-align: middle;
 }
 
-/* Header row background and centering */
+/* Header row */
 th {
   background: #cfcfcf;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;   /* headers are sans-serif */
 }
 
-/* Table cell background */
+/* Table cells */
 td {
   background: white;
-  text-align: left;
 }
 
-/* Column sizing and no wrapping like example */
+/* Column sizing */
 th:first-child,
 td:first-child {
   width: 70px;
