@@ -1,77 +1,77 @@
-/* 5_css1.css - CSS Examples Assignment */
+/* CSS file for CSS Examples assignment */
 
-/* background color */
 body {
   margin: 0;
-  padding: 0;
-  background: #b9dce8;
+  padding: 0 10px 20px 10px;
+  background: #b9dce8;   /* light blue background like example */
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Top header */
+/* Main page title */
 h1 {
   text-align: center;
   font-size: 64px;
-  font-weight: 800;
-  margin: 22px 0 12px;
+  font-weight: bold;
+  margin: 18px 0 12px 0;
   letter-spacing: 1px;
 }
 
-/* Section headers */
+/* Section headings */
 h2 {
   font-size: 34px;
-  font-weight: 700;
-  margin: 18px 0 10px 14px;
+  font-weight: bold;
+  margin: 18px 0 10px 0;
 }
 
 h3 {
   font-size: 22px;
-  font-weight: 700;
-  margin: 18px 0 10px 14px;
+  font-weight: bold;
+  margin: 18px 0 10px 0;
 }
 
-/* general paragraph look */
+/* Regular paragraph styling */
 p {
   font-size: 13px;
   line-height: 1.35;
-  margin: 0 0 14px 0;
+  margin-bottom: 14px;
 }
 
-/* helps match the slight inset of content */
+/* Remove extra spacing around articles */
 article {
-  margin: 0 10px 18px;
+  margin: 0;
 }
 
-/* 2nd paragraph box (width/margin/padding/border/line-height) */
+/* Styled box for second paragraph */
 #paragraph2 {
-  background: #ffffff;
+  background: white;
   border: 4px solid #1f7b2a;
-  padding: 18px 26px;
-  width: 62%;
-  margin: 14px 0 18px 16px; /* left aligned with slight indent */
+  padding: 18px 24px;
+  width: 920px;
+  max-width: calc(100% - 30px);
+  margin: 12px 0 16px 12px;
   line-height: 1.8;
   font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
 }
 
-/* 4th + 5th paragraphs */
+/* Dark blue highlighted paragraphs */
 .blue {
-  background: #0b0b66;
-  color: #d8d8d8;
+  background: #070761;
+  color: #e0e0e0;
   padding: 14px 16px;
   margin: 12px 0;
   border: 2px solid #1a1a6e;
   line-height: 1.5;
 }
 
-/* list numbers with two digits */
+/* Ordered list with two-digit numbers */
 ol {
   list-style-type: decimal-leading-zero;
-  margin: 0 0 18px 34px;
-  padding: 0;
+  margin-left: 24px;
 }
 
-/* list item links */
+/* Default link color */
 a {
   color: #2a51d3;
 }
@@ -80,22 +80,24 @@ a:visited {
   color: #2a51d3;
 }
 
-/* make w3schools link a different color */
+/* Different color for W3Schools link */
 a[href*="w3schools"] {
-  color: #b55b2a;
-}
-a[href*="w3schools"]:visited {
-  color: #b55b2a;
+  color: #b24a2b;
 }
 
-/* table: different header/cell backgrounds + overlapping borders */
+a[href*="w3schools"]:visited {
+  color: #b24a2b;
+}
+
+/* Table formatting */
 table {
   border-collapse: collapse;
   width: 520px;
-  margin: 8px 0 0 14px;
-  background: #fff;
+  margin-top: 8px;
+  background: white;
 }
 
+/* Apply borders to all cells */
 th,
 td {
   border: 1px solid #333;
@@ -104,11 +106,13 @@ td {
   vertical-align: top;
 }
 
+/* Header row background */
 th {
   background: #cfcfcf;
   text-align: left;
 }
 
+/* Table cell background */
 td {
-  background: #ffffff;
+  background: white;
 }
